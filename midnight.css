@@ -3,24 +3,29 @@
 /* customize things here */
 :root {
 	/* font, change to 'gg sans' for default discord font*/
-	--font: 'figtree';
+		--font: 'figtree';
 
 	/* top left corner text */
-	--corner-text: 'Midnight';
+	--corner-text: 'paimon >_<';
 
 	/* color of status indicators and window controls */
-	--online-indicator: var(--accent-2); /* change to #23a55a for default green */
-	--dnd-indicator: hsl(340, 60%, 60%); /* change to #f13f43 for default red */
-	--idle-indicator: hsl(50, 60%, 60%); /* change to #f0b232 for default yellow */
-	--streaming-indicator: hsl(260, 60%, 60%); /* change to #593695 for default purple */
+	/*--online-indicator: var(--accent-2); /* change to #23a55a for default green */
+	/*--dnd-indicator: hsl(340, 60%, 60%); /* change to #f13f43 for default red */
+	/*--idle-indicator: hsl(50, 60%, 60%); /* change to #f0b232 for default yellow */
+	/*--streaming-indicator: hsl(260, 60%, 60%); /* change to #593695 for default purple */
+
+  --online-indicator: #23a55a; /* change to #23a55a for default green */
+	--dnd-indicator: #f13f43; /* change to #f13f43 for default red */
+	--idle-indicator: #f0b232; /* change to #f0b232 for default yellow */
+	--streaming-indicator: #593695; /* change to #593695 for default purple */
 
 	/* accent colors */
-	--accent-1: hsl(190, 70%, 60%); /* links */
-	--accent-2: hsl(190, 70%, 48%); /* general unread/mention elements */
-	--accent-3: hsl(190, 70%, 42%); /* accent buttons */
-	--accent-4: hsl(190, 70%, 36%); /* accent buttons when hovered */
-	--accent-5: hsl(190, 70%, 30%); /* accent buttons when clicked */
-	--mention: hsla(190, 80%, 52%, 0.1); /* mentions & mention messages */
+	--accent-1: #5865f2; /* links */
+	--accent-2: #fc5c7d; /* general unread/mention elements */
+	--accent-3: #5865f2; /* accent buttons */
+	--accent-4: #5865f2; /* accent buttons when hovered */
+	--accent-5: #363d8f; /* accent buttons when clicked */
+	--mention: hsla(0, 0%, 2%, 0.1); /* mentions & mention messages */
 	--mention-hover: hsla(190, 80%, 52%, 0.05); /* mentions & mention messages when hovered */
 
 	/* text colors */
